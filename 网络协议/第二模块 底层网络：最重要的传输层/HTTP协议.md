@@ -14,7 +14,7 @@ DELETE。这个顾名思义就是用来删除资源的。
 首部是 key value，通过冒号分隔。这里面，往往保存了一些非常重要的字段。
 Accept-Charset，表示客户端可以接受的字符集。
 Content-Type 是指正文的格式。
-Cache-control 是用来控制缓存的。
+Cache-control 是用来控制缓存的。(设置max-age为过期时间，public(浏览器，服务器皆可)，private(只浏览器可缓存)，imutiable(刷新页面不重新请求))
 
 4. HTTP 返回的构建
 HTTP 的返回报文也是有一定格式的。这也是基于 HTTP 1.1 的。
